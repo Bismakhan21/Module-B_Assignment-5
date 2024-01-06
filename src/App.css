@@ -220,3 +220,224 @@ a:hover{
   background-color: #eee;
   color: #666;
 }
+
+@media screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
+  nav{
+    width: 280%;
+    /* height: 120px;
+    padding-top: 80px; */
+    padding-left: 40px;
+    /* padding-bottom: 40px; */
+    /* background-image: url("./assets/background.png"); */
+    background-size: cover;
+  }
+/*   
+  .navbar-nav{
+    margin-left: 50px;
+    
+  } */
+/*   
+  .container-fluid img{
+    width: 100%;
+  }
+  
+  .nav-link {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+  } */
+/*   
+  .collapse button{
+    font-size: 24px;
+    margin-right: 30px;
+    outline: none;
+    border: none;
+    background: none;
+  } */
+/*   
+  .collapse button i{
+    margin-right: 12px;
+  }
+  
+  .search a{
+    margin-right: 200px;
+    font-size: 24px;
+  } */
+/*   
+  nav ul li a:hover{
+    color: orangered !important;
+  }
+  
+  nav button:hover{
+    color: orangered !important;
+  }
+  
+  .search a:hover{
+    color: orangered !important;
+  
+  } */
+/*   
+  .carousel-inner{
+    min-height: 10vh;
+  } */
+  
+  /* .btn-ShopNow a{
+    width: 200px;
+    padding: 14px 28px 14px 40px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: orangered;
+  }
+   */
+  /* .btn-ShopNow a:hover{
+   background: orangered;
+   color: #fff;
+   transition: all 0.2s ease-in;
+   
+  } */
+  
+  /* .container{
+   min-width: 600px;
+  }
+   */
+  .slide img{
+    width: 600px;
+  }
+/*   
+  .slide-1{
+    width: 500px;
+    min-height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: start;
+  
+  }
+  
+  .slide-1 h3{
+    font-style: oblique;
+     font-family: cursive;
+     font-size: 58px;
+     color: orangered;
+  }
+  
+  .slide-1 h1{
+    font-size: 68px;
+    font-weight: 700;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  } */
+  
+  /* .slide-1 p{
+    font-size: 32px;
+    line-height: 1.2;
+    padding-bottom: 50px;
+  }
+  
+  .main-section h2{
+    width: 450px;
+    font-size: 50px;
+    letter-spacing: 0.2;
+    margin-left: 650px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: end;
+    color: rgba(88, 58, 23, 0.811);
+  } */
+  
+  .main-section a{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 980px;
+    color: rgba(88, 58, 23, 0.811);
+  }
+  
+  .main-section a:hover{
+    color: orangered;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #666;
+  }
+  
+  a:hover{
+    color: orangered;
+  }
+  
+  .footer{
+   padding: 80px 80px;
+   background-color: #e9e6e6 !important;
+  }
+  
+  .footer .row .col{
+    padding-left: 10px;
+  }
+  
+  .footer p{
+    padding-top: 30px;
+    padding-left: 23px;
+    font-size: 20px;
+  }
+  
+  .footer h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .footer .d-flex li {
+    margin-right: 15px;
+    list-style: none;
+    font-size: 24px;
+  }
+  
+  .footer .S_icons a{
+    
+    color: #999 !important;
+  }
+  
+  .footer .S_icons a :hover{
+    
+    color: orangered !important;
+  }
+  
+  .footer a{
+    font-size: 18px;
+    font-weight: 500;
+   text-align: start;
+  }
+  
+  .footer input{
+    border: none;
+    outline: none;
+    width: 250px;
+    background-color: transparent;
+  }
+  
+  .input{
+    border: 1px solid rgb(181, 180, 180);
+    padding: 6px 0 6px 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+  }
+  
+  .CopyRight{
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 20px;
+    background-color: #eee;
+    color: #666;
+  }
+
+}
