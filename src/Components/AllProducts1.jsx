@@ -1,15 +1,10 @@
-import { Productsdetail } from "./ProductsDetails";
-import { Pro_title } from "./Products_title";
-import { Product } from "./Products";
-import pro_5 from "../assets/pro-5.webp";
-import pro_6 from "../assets/pro-6.webp";
-import pro_7 from "../assets/pro-7.webp";
-import pro_8 from "../assets/pro-8.webp";
-
-
-
-
-
+import { Productsdetail } from "./ProductsDetails.jsx";
+import { Pro_title } from "./Products_title..jsx";
+import { Product } from "./Products.jsx";
+import pro_5 from "../assets/pro-5.webp.jsx";
+import pro_6 from "../assets/pro-6.webp.jsx";
+import pro_7 from "../assets/pro-7.webp.jsx";
+import pro_8 from "../assets/pro-8.webp.jsx";
 
 const AllProducts1 = () => {
     return (

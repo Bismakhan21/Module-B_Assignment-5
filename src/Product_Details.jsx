@@ -1,4 +1,4 @@
-import { Logo } from "./Components/Logo";
+ import { Logo } from "./Components/Logo";
 import { ToggleBtn } from "./Components/ToggleBtn";
 import { Cart_icon } from "./Components/carticon";
 import { Usericon } from "./Components/user";

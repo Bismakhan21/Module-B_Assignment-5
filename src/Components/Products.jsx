@@ -1,26 +1,24 @@
-import {Productsdetail } from "./ProductsDetails";
+// import {Productsdetail } from "./ProductsDetails";
 
-const Product = ({ imageSrc, title, price, oldPrice}) => {
+// const Product = ({ imageSrc, title, price, oldPrice}) => {
 
    
-    return (
-        <div className="product" style={{width: "360px",}}>
+//     return (
+//         <div className="product" style={{width: "360px",}}>  
+//             <div className="product-img">
+//                 <a href="#"><img style={{width:"350px"}} src={imageSrc} alt="" /></a>     
+//             </div>
             
-            <div className="product-img">
-                <a href="#" onClick={handleClick}><img style={{width:"350px"}} src={imageSrc} alt="" /></a>     
-            </div>
-            
-            <div className="product-content">
-                <span>Chair</span>
-                <h4><a href="#">{title}</a></h4>
-                <div className="price-cart">
-                    <div className="price">
-                        <span>${price}</span>          
-                    </div>
-                </div>
-            </div>
-      </div>
-    );
- };
-
-export { Product };
+//             <div className="product-content">
+//                 <span>Chair</span>
+//                 <h4><a href="#">{title}</a></h4>
+//                 <div className="price-cart">
+//                     <div className="price">
+//                         <span>${price}</span>          
+//                     </div>
+//                 </div>
+//             </div>
+//       </div>
+//     );
+//  };
+// export { Product };

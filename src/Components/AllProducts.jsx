@@ -1,4 +1,4 @@
-import { Products_Main } from "./products_main"
+import { Products_Main } from "./Products_main.jsx"
 
 const Allproducts = () =>{
     return(
