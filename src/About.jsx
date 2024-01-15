@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Product_Card } from "./Components/Product_Card";
-import { Details_Component } from "./Components/Details_Component";
+import { Details_Component } from "./Components/Details_Components";
+import { AboutHeading } from "./Components/AboutHeading";
 
 const product_arr = [
     {
@@ -62,8 +63,7 @@ const About =() =>{
   return (
 
     <>
-    <h1>Best sell</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore atque, maxime doloremque quam ipsam mollitia.</p>
+    <AboutHeading />
     <div className="container1">
       {current_data ? (
         <div>

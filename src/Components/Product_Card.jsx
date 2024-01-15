@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Product_Card = (props) => {
+const Product_Card = (props) => {
   const set_data_handle = () => {
     props.click_handle(props);
   };
@@ -18,3 +18,5 @@ export const Product_Card = (props) => {
     </div>
   );
 };
+
+export {Product_Card };
